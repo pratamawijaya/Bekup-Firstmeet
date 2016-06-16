@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.pratamawijaya.firstmeet.MainActivity"
+    >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Lupa Password"
+      />
+
+  <ImageView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:src="@drawable/ic_3d_rotation_black_18dp"
+      />
+
+  <ImageButton
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:src="@drawable/ic_3d_rotation_black_18dp"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="42dp"
+      android:background="#999999"
+      android:gravity="center"
+      android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      android:text="Login"
+      android:textColor="#fff"
+      />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="42dp"
+      android:text="login"
+      android:textAllCaps="false"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-medium"
+      android:text="Hello fjhfjf"
+      android:textColor="#ff0000"
+      android:textSize="22sp"
+      />
+
+  <EditText
+      android:id="@+id/et_username"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <RadioGroup
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      >
+    <RadioButton
+        android:id="@+id/rb_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Male"
+        />
+    <RadioButton
+        android:id="@+id/rb_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        />
+  </RadioGroup>
+
+  <Spinner
+      android:id="@+id/sp_province"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      ></Spinner>
+
+
+</LinearLayout>
