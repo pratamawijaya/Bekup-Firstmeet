@@ -11,14 +11,15 @@
     <activity
         android:name=".MainActivity"
         android:screenOrientation="portrait">
+    </activity>
+    <activity android:name=".LayoutingActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
     </activity>
-    <activity
-        android:name=".LayoutingActivity">
+    <activity android:name=".UserActivity">
     </activity>
   </application>
 
