@@ -1,7 +1,7 @@
 package com.pratamawijaya.firstmeet;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 public class LayoutingActivity extends AppCompatActivity {
@@ -13,7 +13,8 @@ public class LayoutingActivity extends AppCompatActivity {
     setContentView(R.layout.activity_layouting_linearlayout);
 
     Log.d(TAG, "onCreate: ");
-  }
+
+     }
 
   @Override protected void onStart() {
     super.onStart();

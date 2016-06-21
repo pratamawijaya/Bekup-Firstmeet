@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
   String username;
   private ArrayAdapter<String> spAdapter;
 
+
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
